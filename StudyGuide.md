@@ -26,10 +26,10 @@ Run time depends on input (specifically the size)
 
 # Algorithm Run-times
 1. 1 _Constant Run-Time_
-- Programs with instructions executed only once, few at most.
+* Programs with instructions executed only once, few at most.
 
 2. log(N) _Logarithmic Run-Time_
-- As N grows, programs slows down slightly. Takes input and is cut into series of smaller problems, cutting size by a constant at each step
+* As N grows, programs slows down slightly. Takes input and is cut into series of smaller problems, cutting size by a constant at each step
 
 2. N _Linear Run-Time_
 * If N is a million, so is run-time.
@@ -102,6 +102,7 @@ int intArray[10];
 * Arrays have a constant size
 ## Big-O Runtime 
 ### Access 
+
 ### Insert 
 ### Search 
 ### Delete 
