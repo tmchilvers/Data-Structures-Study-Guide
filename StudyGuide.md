@@ -41,6 +41,7 @@ Run time depends on input (specifically the size)
 # Big O Notation
 Saying an algorithm is O(f(n)) is saying that in the the worst case, the run-time of the algorithm to be about f(n).
 * Upper Bound.
+
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) <= c*g(n) for all n > n<sub>0</sub>_
 ### Little O Notation
 	* **Strict** Upper Bound.
@@ -82,6 +83,7 @@ EX.
 int intArray[10];
 ```
 
+* (A
 ### How does an array differ from other data structures (i.e. Linked Lists, Trees) 
 * 
 ## Big-O Runtime 
