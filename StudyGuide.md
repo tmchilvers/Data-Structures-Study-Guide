@@ -40,10 +40,10 @@ Run time depends on input (specifically the size)
 
 # Big O Notation
 Saying an algorithm is O(f(n)) is saying that in the the worst case, the run-time of the algorithm to be about f(n).
-* **Upper Bound
+* Upper Bound.
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) <= c*g(n) for all n > n<sub>0</sub>_
 ### Little O Notation
-	* **Strict Upper Bound
+	* **Strict** Upper Bound.
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) < c*g(n) for all n > n<sub>0</sub>_
 ### Big Omega Notation
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) >= c*g(n) for all n > n<sub>0</sub>_
@@ -64,6 +64,11 @@ An array is a collection of individual data values with two distingishing charac
 * Any array ordered. You must be able to count off the values: here is the first, here is the second, and so on.
 * An array is homogeneous. Every value in the array must have the same type.
 ## Arrays as data structures 
+
+### Benefits 
+* 
+### Disadvantages 
+### How to create/initialize an array 
 * As with any other variable, arrays must be declared before you use them. In C++, the most common syntax for declaring an array variable looks like this:
  
 ```cpp
@@ -77,11 +82,8 @@ EX.
 int intArray[10];
 ```
 
-### Benefits 
+### How does an array differ from other data structures (i.e. Linked Lists, Trees) 
 * 
-### Disadvantages 
-### How to create/initialize an array 
-### How does an array differ from other data structures (i.e. Linked Lists, Trees)  
 ## Big-O Runtime 
 ### Access 
 ### Insert 
