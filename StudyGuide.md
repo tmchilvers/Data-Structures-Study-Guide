@@ -24,7 +24,7 @@ Run time depends on input (specifically the size)
 ### Disadvantages
 * Less accurate than empirical analysis
 
-#Algorithm Run-times
+# Algorithm Run-times
 1. 1 _Constant Run-Time_
 1. Programs with instructions executed only once, few at most.
 2. log(N) _Logarithmic Run-Time_
