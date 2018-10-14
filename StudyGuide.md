@@ -50,12 +50,12 @@ Saying an algorithm is O(f(n)) is saying that in the the worst case, the run-tim
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) <= c*g(n) for all n > n<sub>0</sub>_
 
 ### Little O Notation
-	* **Strict** Upper Bound.
+* **Strict** Upper Bound.
 
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) < c*g(n) for all n > n<sub>0</sub>_
 
 ### Big Omega Notation
-	* Lower Bound
+* Lower Bound
 
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) >= c*g(n) for all n > n<sub>0</sub>_
 
@@ -98,6 +98,7 @@ int intArray[10];
 
 * (Arrays do not automatically initialize to null)
 ### How does an array differ from other data structures (i.e. Linked Lists, Trees) 
+* Elements in an array are stored consecutively in memory
 * 
 ## Big-O Runtime 
 ### Access 
