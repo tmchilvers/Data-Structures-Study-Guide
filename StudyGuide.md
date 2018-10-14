@@ -117,6 +117,7 @@ int intArray[10];
 
 # Linked List/ Double Linked List 
 A _concrete_ data structure type 
+A _Double-Ended_ Linked List allows insertion at the tail
 ### Benefits
 * Lists are _dyanamic_
 * can grow and shrink during run time
@@ -250,7 +251,12 @@ ListNode::~ListNode()
 }
 ```
 ### How does a list differ from other data structures (i.e. arrays, Trees)  
-
+* Elements are not stored consecutively in memory
+* Linked list is dynamic, the size can change
+### Difference between **Single** and **Double** Linked Lists
+* Double allows efficient deletion, fetching end nodes, and flexible iteration
+* Single is more memory efficient and better for systems with limited resources
+* Double is the most commonly implemented List
 ### Big-O Runtime 
 o Access 
 o Insert 
@@ -259,8 +265,8 @@ o Delete
 
 
 # Abstract Data Structures (ADT)  
-## Stacks  
-## Queues 
+## Stacks (LIFO) 
+## Queues (FIFO)
 ### Circular queue 
 ### Priority queue  
 ## Definition of an ADT  
