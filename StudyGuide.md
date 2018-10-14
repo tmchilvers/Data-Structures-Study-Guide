@@ -24,11 +24,11 @@ Run time depends on input (specifically the size)
 ### Disadvantages
 * Less accurate than empirical analysis
 
-# Algorithm Run-times
+#Algorithm Run-times
 1. 1 _Constant Run-Time_
-1. Programs with instructions executed only once, few at most.
+* Programs with instructions executed only once, few at most.
 2. log(N) _Logarithmic Run-Time_
-As N grows, programs slows down slightly. Takes input and is cut into series of smaller problems, cutting size by a constant at each step
+* As N grows, programs slows down slightly. Takes input and is cut into series of smaller problems, cutting size by a constant at each step
 2. N _Linear Run-Time_
 If N is a million, so is run-time.
 3. Nlog(N)
@@ -58,4 +58,22 @@ _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constant
 Arrays  
 Arrays as data structures 
 o Benefits 
-o Disadvantages o How to create/initialize an array o How does an array differ from other data structures (i.e. Linked Lists, Trees)  Big-O Runtime o Access o Insert o Search o Delete Linked List/ Double Linked List  Benefits  Disadvantages  How to create/initialize an array  How does a list differ from other data structures (i.e. arrays, Trees)  Big-O Runtime o Access o Insert o Search o Delete Abstract Data S
+o Disadvantages 
+o How to create/initialize an array 
+o How does an array differ from other data structures (i.e. Linked Lists, Trees)  
+Big-O Runtime 
+o Access 
+o Insert 
+o Search 
+o Delete 
+
+Linked List/ Double Linked List  
+Benefits  
+Disadvantages  
+How to create/initialize an array  
+How does a list differ from other data structures (i.e. arrays, Trees)  
+Big-O Runtime 
+o Access 
+o Insert 
+o Search 
+o Delete Abstract Data S
