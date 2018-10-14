@@ -27,14 +27,19 @@ Run time depends on input (specifically the size)
 # Algorithm Run-times
 1. 1 _Constant Run-Time_
 * Programs with instructions executed only once, few at most.
+
 2. log(N) _Logarithmic Run-Time_
 * As N grows, programs slows down slightly. Takes input and is cut into series of smaller problems, cutting size by a constant at each step
+
 2. N _Linear Run-Time_
 * If N is a million, so is run-time.
+
 3. Nlog(N)
 * When N doubles, the run-time slightly more than doubles. Algorithms break problem into smaller problems, then combines results.
+
 4. N<sup>2</sup> _Quadratic Run-Time_
 * When N doubles, run-time increases by an order of 4.
+
 5. N<sup>3</sup> _Cubic Run-Time_
 * When N double, run-time(T(n)) increases by an order of 8.
 
@@ -43,12 +48,20 @@ Saying an algorithm is O(f(n)) is saying that in the the worst case, the run-tim
 * Upper Bound.
 
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) <= c*g(n) for all n > n<sub>0</sub>_
+
 ### Little O Notation
 	* **Strict** Upper Bound.
+
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) < c*g(n) for all n > n<sub>0</sub>_
+
 ### Big Omega Notation
+	* Lower Bound
+
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) >= c*g(n) for all n > n<sub>0</sub>_
+
 ### Little Omega Notation
+	* **Strict** Lower Bound
+
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) > c*g(n) for all n > n<sub>0</sub>_
 ### Techniques for Analyzing Algorithms
 * Just a few instructions, or numerous instructions that only execute once, f(n) is usually O(1).
@@ -83,7 +96,7 @@ EX.
 int intArray[10];
 ```
 
-* (A
+* (Arrays do not automatically initialize to null)
 ### How does an array differ from other data structures (i.e. Linked Lists, Trees) 
 * 
 ## Big-O Runtime 
