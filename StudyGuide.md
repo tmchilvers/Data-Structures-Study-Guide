@@ -5,7 +5,7 @@
 	## Empirical (Experimental) Analysis
 		Analysis performed by implementing two algorithms and run an experiment with the same input.
 ### Benefits
-..* Extremely accurate results (Actual runtime calculated)
+* Extremely accurate results (Actual runtime calculated)
 ### Disadvantages
 ..* Not good for large data sets
 ..* Cost efficient
