@@ -26,10 +26,10 @@ Run time depends on input (specifically the size)
 
 # Algorithm Run-times
 1. 1 _Constant Run-Time_
-* Programs with instructions executed only once, few at most.
+- Programs with instructions executed only once, few at most.
 
 2. log(N) _Logarithmic Run-Time_
-* As N grows, programs slows down slightly. Takes input and is cut into series of smaller problems, cutting size by a constant at each step
+- As N grows, programs slows down slightly. Takes input and is cut into series of smaller problems, cutting size by a constant at each step
 
 2. N _Linear Run-Time_
 * If N is a million, so is run-time.
@@ -60,7 +60,7 @@ _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constant
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) >= c*g(n) for all n > n<sub>0</sub>_
 
 ### Little Omega Notation
-	* **Strict** Lower Bound
+* **Strict** Lower Bound
 
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) > c*g(n) for all n > n<sub>0</sub>_
 ### Techniques for Analyzing Algorithms
@@ -99,7 +99,7 @@ int intArray[10];
 * (Arrays do not automatically initialize to null)
 ### How does an array differ from other data structures (i.e. Linked Lists, Trees) 
 * Elements in an array are stored consecutively in memory
-* 
+* Arrays have a constant size
 ## Big-O Runtime 
 ### Access 
 ### Insert 
