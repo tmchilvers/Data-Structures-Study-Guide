@@ -74,13 +74,15 @@ _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constant
 
 
 # Arrays  
-An array is a collection of individual data values with two distingishing characteristics:
-* Any array ordered. You must be able to count off the values: here is the first, here is the second, and so on.
+An array (abstract data type) is a collection of individual data values with two distinguishing characteristics:
+* Any array is ordered. You must be able to count off the values: here is the first, here is the second, and so on.
 * An array is homogeneous. Every value in the array must have the same type.
 ## Arrays as data structures 
 
 ### Benefits 
-* 
+* Multiple data items of same data type can be accessed using single name
+* Can implement matrices
+* Can be implemented other data structures 
 ### Disadvantages 
 ### How to create/initialize an array 
 * As with any other variable, arrays must be declared before you use them. In C++, the most common syntax for declaring an array variable looks like this:
@@ -102,10 +104,13 @@ int intArray[10];
 * Arrays have a constant size
 ## Big-O Runtime 
 ### Access 
-
+* Constant
 ### Insert 
+* Constant
 ### Search 
+* Linear
 ### Delete 
+* Constant
 
 # Linked List/ Double Linked List  
 ### Benefits  
@@ -117,7 +122,19 @@ o Access
 o Insert 
 o Search 
 o Delete 
-Abstract Data Structures (ADT)
+
+
+# Abstract Data Structures (ADT)  
+## Stacks  
+## Queues 
+### Circular queue 
+### Priority queue  
+## Definition of an ADT  
+* Defined by their interface (functionality) rather than by their implementation.
+
+## Implementation 
+### Arrays based 
+### List based
 
 
 
