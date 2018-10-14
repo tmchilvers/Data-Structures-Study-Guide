@@ -116,8 +116,8 @@ int intArray[10];
 * O(1) Constant
 
 # Linked List/ Double Linked List 
-A _concrete_ data structure type 
-A _Double-Ended_ Linked List allows insertion at the tail
+A _concrete_ data structure type.
+* A _Double-Ended_ Linked List allows insertion at the tail
 ### Benefits
 * Lists are _dyanamic_
 * can grow and shrink during run time
