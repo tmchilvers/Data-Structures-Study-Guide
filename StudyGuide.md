@@ -38,7 +38,7 @@ Run time depends on input (specifically the size)
 5. N<sup>3</sup> _Cubic Run-Time_
 * When N double, run-time(T(n)) increases by an order of 8.
 
-## Big O Notation
+# Big O Notation
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) <= c*g(n) for all n > n<sub>0</sub>_
 ### Little O Notation
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) < c*g(n) for all n > n<sub>0</sub>_
@@ -56,17 +56,17 @@ _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constant
 * A brute force solution that tries every possible combination of data to find a solution, then f(n) is often exponential
 
 
-## Arrays  
-### Arrays as data structures 
-* Benefits 
-* Disadvantages 
-* How to create/initialize an array 
-* How does an array differ from other data structures (i.e. Linked Lists, Trees)  
-### Big-O Runtime 
-* Access 
-* Insert 
-* Search 
-* Delete 
+# Arrays  
+## Arrays as data structures 
+### Benefits 
+### Disadvantages 
+### How to create/initialize an array 
+### How does an array differ from other data structures (i.e. Linked Lists, Trees)  
+## Big-O Runtime 
+### Access 
+### Insert 
+### Search 
+### Delete 
 
 Linked List/ Double Linked List  
 Benefits  
