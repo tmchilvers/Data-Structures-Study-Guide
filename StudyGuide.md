@@ -83,7 +83,10 @@ An array (abstract data type) is a collection of individual data values with two
 * Multiple data items of same data type can be accessed using single name
 * Can implement matrices
 * Can be implemented other data structures 
-### Disadvantages 
+### Disadvantages
+* Must know in advanced
+* Arrays are _static_
+* Insertions and deletions are VERY difficult and time consuming
 ### How to create/initialize an array 
 * As with any other variable, arrays must be declared before you use them. In C++, the most common syntax for declaring an array variable looks like this:
  
@@ -101,7 +104,7 @@ int intArray[10];
 * (Arrays do not automatically initialize to null)
 ### How does an array differ from other data structures (i.e. Linked Lists, Trees) 
 * Elements in an array are stored consecutively in memory
-* Arrays have a constant size
+* Arrays have a constant size (static)
 ## Big-O Runtime 
 ### Access 
 * Constant
@@ -114,10 +117,10 @@ int intArray[10];
 
 # Linked List/ Double Linked List  
 ### Benefits  
-Disadvantages  
-How to create/initialize an array  
-How does a list differ from other data structures (i.e. arrays, Trees)  
-Big-O Runtime 
+### Disadvantages  
+### How to create/initialize an array  
+### How does a list differ from other data structures (i.e. arrays, Trees)  
+### Big-O Runtime 
 o Access 
 o Insert 
 o Search 
@@ -186,19 +189,12 @@ bool GenStack::isEmpty() {
 ### List based
 ```cpp
 GenStack::GenStack() {
-  myArray = new char[10];
-  size = 10;
-  top = -1;
-}
-
-GenStack::GenStack(int maxSize) {
-  myArray = new char[maxSize];
-  size = maxSize;
-  top = -1;
+  myList = new LinkedList[];
+  top = front; //top is a ListNode*
 }
 
 GenStack::~GenStack() {
-  delete myArray;
+  delete myList;
   cout << "Stack Destroyed" << endl;
 }
 
@@ -232,12 +228,3 @@ bool GenStack::isEmpty() {
   return (top == -1);
 }
 ```
-
-
-
-
-
-
-
-
-
