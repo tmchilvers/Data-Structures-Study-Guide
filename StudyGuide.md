@@ -39,6 +39,7 @@ Run time depends on input (specifically the size)
 * When N double, run-time(T(n)) increases by an order of 8.
 
 # Big O Notation
+Saying an algorithm is O(f(n)) is saying that in the the worst case, the run-time of the algorithm to be about f(n).
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) <= c*g(n) for all n > n<sub>0</sub>_
 ### Little O Notation
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) < c*g(n) for all n > n<sub>0</sub>_
@@ -57,7 +58,18 @@ _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constant
 
 
 # Arrays  
+* An array is a collection of individual data values with two distingishing characteristics:
+Any array ordered. You must be able to count off the values: here is the first, here is the second, and so on.
+An array is homogeneous. Every value in the array must have the same type.
 ## Arrays as data structures 
+* As with any other variable, arrays must be declared before you use them. In C++, the most common syntax for declaring an array variable looks like this:
+ 
+``` C++ Type name[size];```
+ 
+Where type is the element type, name is the array name, and size, is an integer representing the number of elements.
+ 
+EX. Int intArray[10];
+
 ### Benefits 
 ### Disadvantages 
 ### How to create/initialize an array 
@@ -68,8 +80,8 @@ _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constant
 ### Search 
 ### Delete 
 
-Linked List/ Double Linked List  
-Benefits  
+# Linked List/ Double Linked List  
+###Benefits  
 Disadvantages  
 How to create/initialize an array  
 How does a list differ from other data structures (i.e. arrays, Trees)  
