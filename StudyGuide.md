@@ -257,12 +257,19 @@ ListNode::~ListNode()
 * Double allows efficient deletion, fetching end nodes, and flexible iteration
 * Single is more memory efficient and better for systems with limited resources
 * Double is the most commonly implemented List
-### Big-O Runtime 
-o Access 
-o Insert 
-o Search 
-o Delete 
-
+## Big-O Runtime 
+### Access 
+* Linear
+### Insert 
+* Constant (only at front and back of DE list)
+* Linear at any other position
+* Always constant for Double Linked List
+### Search 
+* Linear
+### Delete 
+* Constant (only at front and back of DE list)
+* Linear at any other position
+* Always constant for Double Linked List
 
 # Abstract Data Structures (ADT)  
 ## Stacks (LIFO) 
@@ -353,9 +360,26 @@ bool GenStack::isEmpty() {
 
 # Trees  
 ## Benefits  
+* logarithmic search and insert is faster than the linear runtime of other data structures
 ## Disadvantages  
+* Runtime slows when tree is unbalanced
+* Deletion is slow
 ## How does a tree (BST.) differ from other data structures (i.e. arrays, linked list)  
+* BSTs have faster searching and inserting 
 ## Rules of a Tree o Binary Search Tree (BST)  
+* A binary search tree is a binary tree storing keys or kv entires at its interval nodes nad satisfying the following property:
+* Entries are sorted
+* Values smaller than root, left subtree
+* Values greater than root, right subtree
+* Each node (vertex) must have exactly one path (edge) to another node
+If not then it’s a graph
+* Nodes that have two children are called internal nodes
+* That have one or fewer children are called external nodes
+* Leaf nodes have no children
+* Depth same as tree
+* Height same as a tree
+* The number of children of a given node is called the degree
+
 ## Big-O Runtime 
 ### Access 
 * O(log(n)) Logarithmic Runtime
