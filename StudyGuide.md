@@ -59,10 +59,10 @@ _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constant
 
 # Arrays  
 An array is a collection of individual data values with two distingishing characteristics:
-Any array ordered. You must be able to count off the values: here is the first, here is the second, and so on.
-An array is homogeneous. Every value in the array must have the same type.
+* Any array ordered. You must be able to count off the values: here is the first, here is the second, and so on.
+* An array is homogeneous. Every value in the array must have the same type.
 ## Arrays as data structures 
-* As with any other variable, arrays must be declared before you use them. In C++, the most common syntax for declaring an array variable looks like this:
+As with any other variable, arrays must be declared before you use them. In C++, the most common syntax for declaring an array variable looks like this:
  
 ```cpp
 Type name[size];
@@ -70,7 +70,10 @@ Type name[size];
  
 Where _type_ is the element type, _name_ is the array name, and _size_ is an integer representing the number of elements.
  
-EX. Int intArray[10];
+EX. 
+```cpp
+Int intArray[10];
+```
 
 ### Benefits 
 ### Disadvantages 
