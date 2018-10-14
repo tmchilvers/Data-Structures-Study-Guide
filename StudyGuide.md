@@ -2,7 +2,7 @@
 _Algorithm_ : A process or set of rules to be followed to solve a problem
 	
 ## 1. Empirical (Experimental) Analysis
-* Analysis performed by implementing two algorithms and run an experiment with the same input.
+Analysis performed by implementing two algorithms and run an experiment with the same input.
 ### Benefits
 * Extremely accurate results (Actual runtime calculated)
 ### Disadvantages
@@ -76,6 +76,7 @@ Int intArray[10];
 ```
 
 ### Benefits 
+
 ### Disadvantages 
 ### How to create/initialize an array 
 ### How does an array differ from other data structures (i.e. Linked Lists, Trees)  
