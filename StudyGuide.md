@@ -1,7 +1,7 @@
 # Algorithm Analysis 
 _Algorithm_ : A process or set of rules to be followed to solve a problem
 	
-## Empirical (Experimental) Analysis
+## 1. Empirical (Experimental) Analysis
 * Analysis performed by implementing two algorithms and run an experiment with the same input.
 ### Benefits
 * Extremely accurate results (Actual runtime calculated)
@@ -11,7 +11,7 @@ _Algorithm_ : A process or set of rules to be followed to solve a problem
 * Difficult/lengthy to implement algorithms.
 * Dependent on many variables i.e. platform/hardware and compilers/linkers
 
-## Mathematical/Asymptotic Analysis (Theoretical Analysis)
+## 2. Mathematical/Asymptotic Analysis (Theoretical Analysis)
 Analysis that determines factors that determine the run-time of algorithm
 * input
 * Quality of code
