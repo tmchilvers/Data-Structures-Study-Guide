@@ -259,17 +259,18 @@ ListNode::~ListNode()
 * Double is the most commonly implemented List
 ## Big-O Runtime 
 ### Access 
-* Linear
+* O(n) Linear
 ### Insert 
-* Constant (only at front and back of DE list)
-* Linear at any other position
-* Always constant for Double Linked List
+* O(1) Constant (only at front and back of DE list)
+* O(n) Linear at any other position
+* O(1) Always constant for Double Linked List
 ### Search 
-* Linear
+* O(n) Linear
 ### Delete 
-* Constant (only at front and back of DE list)
-* Linear at any other position
-* Always constant for Double Linked List
+* O(1) Constant (only at front and back of DE list)
+* O(n) Linear at any other position
+* O(1) Always constant for Double Linked List
+
 
 # Abstract Data Structures (ADT)  
 ## Stacks (LIFO) 
@@ -280,7 +281,7 @@ ListNode::~ListNode()
 * Defined by their interface (functionality) rather than by their implementation.
 
 ## Implementation 
-### Arrays based 
+### Arrays based Stacks
 ```cpp
 GenStack::GenStack() {
   myArray = new char[10];
@@ -330,7 +331,7 @@ bool GenStack::isEmpty() {
 }
 ```
 
-### List based
+### List based Stacks
 ```cpp
 GenStack::GenStack() {
   myList = new LinkedList[];
