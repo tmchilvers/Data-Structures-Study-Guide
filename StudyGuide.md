@@ -272,11 +272,15 @@ ListNode::~ListNode()
 * O(1) Always constant for Double Linked List
 
 
-# Abstract Data Structures (ADT)  
+# Abstract Data Structures (ADT) 
 ## Stacks (LIFO) 
+* Stacks are a container data (like an array). They store objects we work with.
+* 
 ## Queues (FIFO)
-### Circular queue 
+### Circular queue
+* A circular queue is a queue in which the last position is connected back to the first position. 
 ### Priority queue  
+* A priority queue is an abstract data type which is like a regular queue or stack data structure, but where additionally each element has a "priority" associated with it. In a priority queue, an element with high priority is served before an element with low priority.
 ## Definition of an ADT  
 * Defined by their interface (functionality) rather than by their implementation.
 
