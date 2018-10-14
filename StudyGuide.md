@@ -30,13 +30,14 @@ Run time depends on input (specifically the size)
 2. log(N) _Logarithmic Run-Time_
 * As N grows, programs slows down slightly. Takes input and is cut into series of smaller problems, cutting size by a constant at each step
 2. N _Linear Run-Time_
-If N is a million, so is run-time.
+* If N is a million, so is run-time.
 3. Nlog(N)
-When N doubles, the run-time slightly more than doubles. Algorithms break problem into smaller problems, then combines results.
+* When N doubles, the run-time slightly more than doubles. Algorithms break problem into smaller problems, then combines results.
 4. N<sup>2</sup> _Quadratic Run-Time_
-When N doubles, run-time increases by an order of 4.
+* When N doubles, run-time increases by an order of 4.
 5. N<sup>3</sup> _Cubic Run-Time_
-When N double, run-time(T(n)) increases by an order of 8.
+* When N double, run-time(T(n)) increases by an order of 8.
+
 ## Big O Notation
 _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constants c and n<sub>0</sub> such that f(n) <= c*g(n) for all n > n<sub>0</sub>_
 ### Little O Notation
@@ -55,7 +56,7 @@ _Given two functions, f(n) and g(n), f(n) = O(g(n)) if there exists two constant
 * A brute force solution that tries every possible combination of data to find a solution, then f(n) is often exponential
 
 
-Arrays  
+## Arrays  
 Arrays as data structures 
 o Benefits 
 o Disadvantages 
@@ -76,4 +77,5 @@ Big-O Runtime
 o Access 
 o Insert 
 o Search 
-o Delete Abstract Data S
+o Delete 
+Abstract Data Structures (ADT)
