@@ -64,7 +64,9 @@ An array is homogeneous. Every value in the array must have the same type.
 ## Arrays as data structures 
 * As with any other variable, arrays must be declared before you use them. In C++, the most common syntax for declaring an array variable looks like this:
  
-```cpp Type name[size];```
+```cpp
+Type name[size];
+```
  
 Where type is the element type, name is the array name, and size, is an integer representing the number of elements.
  
