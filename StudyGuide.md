@@ -107,13 +107,13 @@ int intArray[10];
 * Arrays have a constant size (static)
 ## Big-O Runtime 
 ### Access 
-* Constant
+* O(1) Constant
 ### Insert 
-* Constant
+* O(1) Constant
 ### Search 
-* Linear
+* O(n) Linear
 ### Delete 
-* Constant
+* O(1) Constant
 
 # Linked List/ Double Linked List 
 A _concrete_ data structure type 
