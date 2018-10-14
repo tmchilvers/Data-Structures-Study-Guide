@@ -115,11 +115,142 @@ int intArray[10];
 ### Delete 
 * Constant
 
-# Linked List/ Double Linked List  
-### Benefits  
+# Linked List/ Double Linked List 
+A _concrete_ data structure type 
+### Benefits
+* Lists are _dyanamic_
+* can grow and shrink during run time
+* Insertion and Deletion operations are easier
+* Efficient Memory Utilization (no need to pre-allocate memory)
+* Faster access time
+* Linear Data structures (stacks, queues) can be easily implemented using Linked list
 ### Disadvantages  
-### How to create/initialize an array  
+* Use more memory than array due to pointers
+* Nodes in a linked list must be read in order from the beginning as linked lists are inherently sequential access.
+### How to create/initialize a Linked List
+```cpp
+NaiveList::NaiveList()
+{
+  front = NULL;
+  size = 0;
+}
+
+NaiveList::~NaiveList()
+{
+  //food for thought
+}
+
+unsigned int NaiveList::getSize()
+{
+  return size;
+}
+
+void NaiveList::printList()
+{
+  ListNode *curr = front;
+
+  while(curr != NULL)
+  {
+    cout << curr->data << endl;
+    curr = curr->next;
+  }
+}
+
+void NaiveList::insertFront(int d)
+{
+  ++size;
+  ListNode *node = new ListNode(d);
+  node->next = front;
+  front = node;
+}
+
+int NaiveList::removeFront()
+{
+  --size;
+  int temp = front->data;
+  ListNode *ft = front;
+  front = front->next;
+  ft->next = NULL; //nullptr
+
+  delete ft;
+
+  return temp;
+}
+
+int NaiveList::find(int value)
+{
+   int idx = -1;
+   ListNode *curr = front;
+
+   while(curr != NULL) //begin search for value
+   {
+     idx++;
+
+     if(curr->data == value) //we found it
+     {
+       break;
+     }
+     else //we did not find it continue searching
+     {
+       curr = curr->next;
+     }
+   }
+
+   if(curr == NULL)
+   {
+     idx = -1;
+   }
+
+  return idx;
+}
+
+int NaiveList::deletePos(int pos)
+{
+  int idx = 0;
+
+  ListNode *curr = front;
+  ListNode *prev = front;
+
+  while(idx != pos) //this loop is responsible for putting our pointers in their correct positions
+  {
+    prev = curr;
+    curr = curr->next;
+    ++idx;
+  }
+
+  //found the position, lets proceed to delete
+
+  prev->next = curr->next;
+  curr->next = NULL;
+
+  int d = curr->data;
+  size--;
+
+  delete curr;
+
+  return d;
+}
+```
+### How to create a node
+```cpp
+ListNode::ListNode()
+{
+  //Implement this
+}
+
+ListNode::ListNode(int d)
+{
+  data = d;
+  next = NULL; //nullptr
+}
+
+ListNode::~ListNode()
+{
+  //research this
+}
+```
 ### How does a list differ from other data structures (i.e. arrays, Trees)  
+
 ### Big-O Runtime 
 o Access 
 o Insert 
@@ -190,8 +321,7 @@ bool GenStack::isEmpty() {
 ```cpp
 GenStack::GenStack() {
   myList = new LinkedList[];
-  top = front; //top is a ListNode*
-}
+ }
 
 GenStack::~GenStack() {
   delete myList;
@@ -199,32 +329,38 @@ GenStack::~GenStack() {
 }
 
 void GenStack::push(char d) {
-    if (top >= size-1) {
-    std::cout << "Stack full. Could not push " << d << endl;
-  }
-  else {
-    myArray[++top] = d;
-  }
-}
+    myList.insertFront(d);
+ }
 
 char GenStack::pop() {
-    if (top < 0) {
-    std::cout << "Stack empty. Nothing to pop." << endl;
-  }
-  else {
-    return myArray[top--];
-  }
+    return myList.removeFront();
 }
 
 char GenStack::peek() {
-  return myArray[top];
-}
-
-bool GenStack::isFull() {
-  return (top == size-1);
+  return myList->front;
 }
 
 bool GenStack::isEmpty() {
-  return (top == -1);
+  return myList->front == NULL;
 }
 ```
+
+# Trees  
+## Benefits  
+## Disadvantages  
+## How does a tree (BST.) differ from other data structures (i.e. arrays, linked list)  
+## Rules of a Tree o Binary Search Tree (BST)  
+## Big-O Runtime 
+### Access 
+* O(log(n)) Logarithmic Runtime
+### Insert 
+* O(log(n)) Logarithmic Runtime
+### Search
+* O(log(n)) Logarithmic Runtime
+
+
+
+
+
+
+
