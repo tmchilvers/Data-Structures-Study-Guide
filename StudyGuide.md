@@ -1,6 +1,6 @@
 # Algorithm Analysis
 
-	*Algorithm : A process or set of rules to be followed to solve a problem
+	* Algorithm : A process or set of rules to be followed to solve a problem
 
 	## Empirical (Experimental) Analysis
 		Analysis performed by implementing two algorithms and run an experiment with the same input.
