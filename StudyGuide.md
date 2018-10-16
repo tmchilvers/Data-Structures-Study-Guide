@@ -392,6 +392,8 @@ If not then it’s a graph
 * O(log(n)) Logarithmic Runtime
 ### Search
 * O(log(n)) Logarithmic Runtime
+### Delete
+* O(log(n)) Logarithmic Runtime
 
 
 
