@@ -395,7 +395,31 @@ If not then it’s a graph
 ### Delete
 * O(log(n)) Logarithmic Runtime
 
-
+# Templates
+## Benefits
+* Reducing the repition of code
+* Static polymorphism
+* flexible
+* increasing safety at no cost
+## Disadvantages
+* Compilation time
+* It is not common to find people who can use and understand templates
+## How to implement a Template Class
+```cpp
+template<class T>
+class TestTemp   
+{
+public:
+    TestTemp();
+    void SetValue( T obj_i );
+    T Getalue();
+ 
+private:
+ 
+    T m_Obj;
+};
+```
+## How to implement a Template Function
 
 
 
