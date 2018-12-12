@@ -395,6 +395,17 @@ If not then it’s a graph
 ### Delete
 * O(log(n)) Logarithmic Runtime
 
+## Red Black Trees
+
+## AVL Trees
+
+## Tree Traversal
+### Inorder
+
+### Postorder
+
+### Preorder
+
 # Templates
 ## Benefits
 * Reducing the repition of code
@@ -422,6 +433,66 @@ private:
 ## How to implement a Template Function
 
 
+# Hashing/Hash Tables
+
+## Benefits
+
+## Disadvantages
+
+## Rules of a good hashing function
+
+## Techniques for handling hash collisions
+
+## Big-o Runtime
 
 
+# Sorting
+## How Each algorithm works and Big O for each
+### Bubble Sort
+
+### Insertion Sort
+
+### Selection Sort
+
+### Merge Sort
+
+### Quick Sort
+
+
+# Graphs
+## Benefits
+
+## Disadvantages
+
+## Usages
+* Computer Networks
+* Circuitry
+* Logistics Networks
+
+## How do graphs differ from other data structures
+
+## Definitions
+* Undirected
+* Directed
+* Weighted
+
+## Implementing/representing a graph
+### Adjacency List
+
+### Adjacency Matrix
+
+## Graph Traversal
+### Depth First Search
+
+### Breadth First search
+
+### Shortest path algorithms
+* Dijkstra's
+
+* Floyd-Warshall
+
+### Minimum-Spanning Tree (MST)
+* Prim's algorithm
+
+* Kruskal's algorithm
 
